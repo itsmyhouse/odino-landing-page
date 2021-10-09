@@ -5,6 +5,9 @@ body {
     margin: 0;
 }
 
+/*
+    HEADER
+*************************************************************************/
 ul {
     list-style: none;
     display: inline;
@@ -72,4 +75,78 @@ button {
     font-family: hero, sans-serif;
     font-weight: 900;
     font-size: 48px;
+}
+
+/*
+    MAIN   
+***************************************************************************/
+
+main {
+    background-color: #e4e7eb;
+    font-family: Helvetica, sans-serif;
+}
+
+h2.information {
+    margin: 40px 0;
+    padding: 0;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.box {
+    width: 145px;
+}
+
+.box div {
+    border: 2px solid blue;
+    border-radius: 15%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.boxes-streap {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+/****** quotation ********/
+
+.quote {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1f2937;
+    background-color: #e4e7eb;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.signature {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: right;
+    margin-left: 65%;
+}
+
+
+/****** the bottom band ******/
+
+.band {
+    width: 60%;
+    margin: 200px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882f6;
+    color: white;
+}
+
+.band button {
+    border: 2px solid white;
 }
