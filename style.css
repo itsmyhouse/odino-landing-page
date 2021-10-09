@@ -20,20 +20,19 @@ li {
 
 a {
     text-decoration: none;
-    color: white;
     font-size: 18px;
     color: #e5e7eb;
 }
 
 header {  
     background-color: #1F2937;
-    color: white;
+    color: #e5e7eb;
 }
-header div:first-child {
+.header-top {
     height: 150px;
 }
 
-div.header-top {
+.header-top {
     width: 70%;
     margin: 0 auto;
     display: flex;
@@ -46,4 +45,31 @@ header div span {
     margin-top: 8px;
     font-size: 24px;
     color: #f9faf8;
+}
+
+.header-body {
+    display: flex;
+    width: 70%;
+    height: 450px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-family: hero, sans-serif;
+    padding: 8px 18px;
+    border-radius: 8%;
+    border: 0;
+}
+
+.header-body-left h1 {
+    margin: 0;
+    padding: 0;
+    color: #f9faf8;
+    font-family: hero, sans-serif;
+    font-weight: 900;
+    font-size: 48px;
 }
